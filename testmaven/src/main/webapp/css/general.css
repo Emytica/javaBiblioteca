@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #e2e0e9;
+}
+
+header {
+	background-color: #6262ff;
+	width: 90%;
+	height: 30px;
+	padding: 5px;
+	float: left;
+}
+
+.welcome, .logout, a {
+	color: white;
+	font-family: cursive;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.logout {
+	float: left;
+	width: 8%;
+	background-color: #6262ff;
+	height: 30px;
+	padding: 5px;
+	border-left: 1px solid #c9c9c9;
+	text-align: center;
+}
